@@ -10,8 +10,8 @@ services:
     mongo:
         image: mongo
         environment: 
-            - MONGO_INITDB_ROOT_USERNAME=sz619
-            - MONGO_INITDB_ROOT_PASSWORD=schism96
+            - MONGO_INITDB_ROOT_USERNAME=<secret>
+            - MONGO_INITDB_ROOT_PASSWORD=<secret>
         volumes:
             - mongo-db:/data/db
 volumes: 
